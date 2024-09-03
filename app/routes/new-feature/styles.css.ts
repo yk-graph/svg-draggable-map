@@ -39,7 +39,7 @@ export const mapHeader = style({
 export const mapContainer = style({
   width: '100%',
   aspectRatio: '4 / 3',
-  backgroundColor: 'lightcyan',
+  backgroundColor: '#5a5e73',
   '@container': {
     '(width < 688px)': {
       aspectRatio: '3 / 4',
@@ -99,3 +99,7 @@ export const reservationAction = style({
   marginTop: 'auto',
   background: 'lightseagreen',
 })
+
+export const svgStyle = style({
+  position: 'absolute',
+});
